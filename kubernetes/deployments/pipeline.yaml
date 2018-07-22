@@ -15,7 +15,7 @@ spec:
         app: pipeline
     spec:
       containers:
-      - image: gcr.io/hightowerlabs/pipeline
+      - image: gcr.io/kubernetes-ml-dev/pipeline:5d92f676e18bf5a60f353625dbd8f002bcca5e4d
         name: pipeline
         ports:
         - containerPort: 80
