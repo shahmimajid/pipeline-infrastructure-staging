@@ -15,7 +15,7 @@ spec:
         app: pipeline
     spec:
       containers:
-      - image: gcr.io/kubernetes-ml-dev/pipeline:310429df4c5046cf607fca37a5d3db85778d865d
+      - image: gcr.io/kubernetes-ml-dev/pipeline:3c038050b9103b93ece99b3373498dd353b28923
         name: pipeline
         ports:
         - containerPort: 80
